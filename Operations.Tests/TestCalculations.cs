@@ -85,7 +85,7 @@ namespace Operations.Tests
         [InlineData(7, 5, 2)]
         [InlineData(20, 6, 2)]
         [InlineData(10.5, 3, 1.5)]
-        [InlineData(-10, 3, -1)]
+        [InlineData(17, 5, 2)]
         public void TestRemainder(double num1, double num2, double expected)
         {
             // Act

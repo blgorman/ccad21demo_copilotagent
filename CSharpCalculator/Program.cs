@@ -163,6 +163,11 @@ namespace CSharpCalculator
                         result = Calculations.Remainder(n1, n2);
                         operation = "%";
                         break;
+                    default:
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Invalid operation choice.");
+                        Console.ResetColor();
+                        return;
                 }
 
                 Console.ForegroundColor = ConsoleColor.Cyan;
